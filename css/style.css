@@ -1,0 +1,357 @@
+@font-face {
+    font-family: 'KickerTrial-BlackItalic';
+    src: url(../font/Thicker-Font-Family/KickerTrial-BlackItalic.ttf);
+}
+
+body {
+    font-family: 'Fugaz One';
+    font-weight: 400;
+}
+
+.sec-f-bg {
+    background-color: #111;
+    background-image: url(../images/Group\ 63.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.sec-logo {
+    width: 80% !important;
+    margin-left: 25%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Montserrat' !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+a.nav-link.text-light.font-weight-bold {
+    font-family: 'Montserrat' !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+ul#menu-main-menu {
+    padding-left: 4%;
+}
+
+.sec-main-hading {
+    font-family: 'KickerTrial-BlackItalic';
+    font-style: italic;
+    font-weight: 901;
+    font-size: 113px;
+    line-height: 80.8%;
+    color: #FFFFFF;
+    padding-top: 30%;
+}
+
+.sec-main {
+    background-image: url(../images/Rectangle\ 2.png) !important;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    background-size: 120%;
+    -webkit-text-fill-color: transparent;
+}
+
+.but-sec {
+    background-image: url(../images/Rectangle\ 4.png) !important;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin-top: 16%;
+}
+
+.sec-joi-but {
+    font-family: 'Fugaz One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 28px;
+    padding-left: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sec-joi-but:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.src-h-icon {
+    margin-top: 14%;
+    margin-bottom: 16%;
+}
+
+.sec-icon-but {
+    background-image: url(../images/Rectangle\ 5.png) !important;
+    background-repeat: no-repeat;
+    padding: 10px 20px;
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    color: #fff;
+}
+
+.sec-f-bg2 {
+    background-image: url(../images/Group\ 64.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5%;
+}
+
+.sec-img-2 {
+    width: 100%;
+    padding-top: 14%;
+}
+
+.sec-about {
+    padding-top: 25%;
+    padding-left: 10%;
+
+}
+
+.sec-about h2 {
+    font-size: 30px;
+    line-height: 28px;
+    color: #C54A4C;
+
+}
+
+.sec-about h3 {
+    font-size: 55px;
+    line-height: 52px;
+    color: #FFFFFF;
+}
+
+.sec-about p {
+
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+}
+
+.bg-img2 {
+    background-image: linear-gradient(rgb(143 35 35 / 65%), rgb(143 6 6 / 67%)),
+        url(../images/image-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service2 {
+    background-color: #111;
+    background-image: url(../images/boygym.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 150px;
+}
+
+.service h2 {
+    padding-top: 50px;
+    color: #922828;
+    font-family: 'Fugaz One';
+}
+
+.ser-bg {
+    background-image: linear-gradient(rgba(22, 22, 22, 0.65), rgb(22, 22, 22, 0.65)),
+        url(../images/7xm\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ser-bg2 {
+    background-image: linear-gradient(rgba(22, 22, 22, 0.65), rgb(22, 22, 22, 0.65)),
+        url(../images/Rectangle\ 20.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ser-bg3 {
+    background-image: linear-gradient(rgba(22, 22, 22, 0.65), rgb(22, 22, 22, 0.65)),
+        url(../images/Rectangle\ 20\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-c button {
+    background-color: #922828;
+}
+
+.sec-hr {
+    height: 2px;
+}
+
+.bean-bg {
+    background-image: linear-gradient(rgb(143 35 35 / 65%), rgb(143 6 6 / 67%)),
+        url(../images/image\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bran-bg2 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.822), rgb(255, 255, 255, 0.822)),
+        url(../images/Rectangle\ 13.png);
+    width: 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 15px solid #000000;
+    border-width: 15px 0px 0px 0px;
+}
+
+.bran-bg3 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.822), rgb(255, 255, 255, 0.822)),
+        url(../images/Rectangle\ 13.png);
+    width: 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 15px solid #000000;
+    border-width: 15px 0px 0px 0px;
+}
+
+.sec-hed-col {
+    color: #000000 !important;
+}
+
+.but-sec2 {
+    background-image: url(../images/Group\ 4.png) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 40px;
+}
+
+.but-sec2 button {
+    background-color: transparent !important;
+    padding: 2px !important;
+}
+
+.sec-bran-p {
+    color: #000000;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-align: center;
+}
+
+.sec-in-p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+#interest2 {
+    display: block;
+}
+
+.intclass2 h3 {
+    padding-top: 147px !important;
+}
+
+/* Interest-start-mobile************* */
+#interest1 {
+    display: none;
+}
+
+.inter-bg {
+    background-image: url(../images/bg63.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intclass h3 {
+    padding-top: 60px !important;
+}
+
+.sec-margen {
+    color: #922828;
+}
+
+.sec-margen i {
+    color: #922828;
+}
+
+.sec-margen p {
+    color: #000000;
+}
+
+/* Interest-end-mobile*************  */
+
+.fo-bg {
+    background-color: #111;
+}
+
+.foot hr {
+    width: 30%;
+    height: 4px;
+    margin-left: 0;
+    background-color: #922828;
+    opacity: 10;
+}
+
+.ft-icon {
+    color: #922828;
+}
+
+.sec-font {
+    font-family: 'Montserrat';
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+
+    .sec-main-hading {
+        font-size: 60px;
+    }
+
+    .sec-logo {
+        margin-left: 0%;
+    }
+
+    .inter-bg {
+        background-image: url(../images/bg62.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #interest1 {
+        display: block;
+    }
+
+    #interest2 {
+        display: none;
+    }
+
+    .sec-about h3 {
+        font-size: 35px;
+        line-height: 42px;
+        color: #FFFFFF;
+    }
+
+    .sec-about h2 {
+        color: #fff;
+    }
+}
