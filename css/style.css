@@ -4,8 +4,7 @@
 }
 
 body {
-    font-family: 'Fugaz One';
-    font-weight: 400;
+   background-color: #080b10;
 }
 
 .sec-f-bg {
@@ -221,6 +220,7 @@ ul#menu-main-menu {
 
 .sec-hed-col {
     color: #000000 !important;
+
 }
 
 .but-sec2 {
@@ -322,7 +322,14 @@ ul#menu-main-menu {
 
 
 @media (max-width: 767px) {
-
+    a.navbar-brand {
+        width: 70%;
+    }
+    .sec-hed-col {
+        color: #000000 !important;
+        font-size: 20px;
+        
+    }
     .sec-main-hading {
         font-size: 60px;
     }
@@ -354,4 +361,151 @@ ul#menu-main-menu {
     .sec-about h2 {
         color: #fff;
     }
+}
+
+
+/* ---------------------------About-Us----------------------- */
+
+.sec-about-bg{
+    background-image: url(../images/gym3_pic17.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+.sec-about-hed{
+    padding: 100px 70px;
+}
+.let-bg{
+    background-image: url(../images/Rectangle-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+.story-bg{
+    background-image: url(../images/about-bg3.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-bottom: 5px solid #922828;
+}
+.story h1{
+    color: #922828;
+}
+.story-bg2{
+    background-image: url(../images/BG-STRIP.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.culture-bg{
+    background-color: #DEBFBF;
+}
+
+
+@media (max-width: 768px) {
+    .story-bg{
+        background-image: none;
+    }
+   .sec-abou-h{
+    font-size: 20px;
+   }
+   .sec-abou-h1{
+    font-size: 12px;
+   }
+}
+/* -------------------------------findgym-page------------------------------ */
+
+.ab-bran-bg2{
+    background-image: linear-gradient(rgba(15, 15, 15, 0.822), rgb(15, 15, 15, 0.822)),
+    url(../image/b-img.png);
+    width: 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ab-bran-bg3{
+    background-image: linear-gradient(rgba(15, 15, 15, 0.822), rgb(15, 15, 15, 0.822)),
+    url(../image/b-img.png);
+    width: 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* ----------------------------------blog-page---------------------------------------- */
+
+.sec-image-hr {
+    background-color: #000000;
+    width: 70%;
+}
+
+/* -------------------------------gallery-page---------------------------- */
+
+/* ------------------------gallery-page--------------- */
+
+
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 25px auto;
+    font-size: 18px;
+    color: #999;
+}
+
+.tz-gallery {
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+/* Override bootstrap column paddings */
+.tz-gallery .row>div {
+    padding: 2px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+
+}
+
+
+.tz-gallery .lightbox:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(2, 2, 2, 0.7);
+    content: '';
+    transition: 0.4s;
+}
+
+.tz-gallery .lightbox:hover:after,
+.tz-gallery .lightbox:hover:before {
+    opacity: 1;
+}
+
+/* ---------------------------------contact-page---------------------------- */
+
+.icon {
+    padding-top: 20px;
+    font-size: 40px;
+}
+.con-bg{
+    margin-top: -40px;
+}
+.hr1 {
+    width: 85px;
+    border-top: 4px solid #333333;
+}
+.sec-form{
+    width: 80%;
+}
+.btn{
+    background-color: #922828;
+}
+@media (max-width: 768px) {
+    .con-bg{
+        margin-top: 50px;
+    }
+    
 }
