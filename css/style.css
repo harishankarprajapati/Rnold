@@ -167,6 +167,7 @@ ul#menu-main-menu {
         url(../images/7xm\ 3.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 400px;
 }
 
 .ser-bg2 {
@@ -174,13 +175,15 @@ ul#menu-main-menu {
         url(../images/Rectangle\ 20.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 400px;
 }
 
 .ser-bg3 {
     background-image: linear-gradient(rgba(22, 22, 22, 0.65), rgb(22, 22, 22, 0.65)),
-        url(../images/Rectangle\ 20\ \(1\).png);
+        url(../images/new.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 400px;
 }
 
 .bg-c button {
@@ -384,6 +387,9 @@ a{
     }
     .sec-main-hading {
         font-size: 60px;
+    }
+    .sec-img-h{
+        width: 100%;
     }
 
     .sec-logo {
