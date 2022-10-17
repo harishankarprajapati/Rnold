@@ -64,21 +64,9 @@ ul#menu-main-menu {
     margin-top: 16%;
 }
 
-.sec-joi-but {
-    font-family: 'Fugaz One';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 28px;
-    padding-left: 30px;
-    text-align: center;
-    color: #FFFFFF;
-}
 
-.sec-joi-but:hover {
-    color: #FFFFFF;
-    text-decoration: none;
-}
+
+
 
 .src-h-icon {
     margin-top: 14%;
@@ -377,6 +365,30 @@ a{
 
 
 @media (max-width: 767px) {
+    .sec-f-bg {
+        background-image: url(../images/Group\ 71.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .sec-main-hading {
+        font-size: 38px;
+        padding-top: 6px;
+        padding-bottom: 138px;
+    }
+    .sec-joi-but {
+        font-family: 'Fugaz One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 27px;
+        padding-left: 28px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .sec-joi-but:hover {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
     a.navbar-brand {
         width: 70%;
     }
@@ -384,9 +396,6 @@ a{
         color: #000000 !important;
         font-size: 20px;
         
-    }
-    .sec-main-hading {
-        font-size: 60px;
     }
     .sec-img-h{
         width: 100%;
