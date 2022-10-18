@@ -213,6 +213,20 @@ ul#menu-main-menu {
     color: #000000 !important;
 
 }
+.sec-joi-but {
+    font-family: 'Fugaz One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+    padding-left: 28px;
+    text-align: center;
+    color: #FFFFFF !important;
+}
+.sec-joi-but:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
 
 .but-sec2 {
     background-image: url(../images/Group\ 4.png) !important;
@@ -383,7 +397,7 @@ a{
         line-height: 27px;
         padding-left: 28px;
         text-align: center;
-        color: #FFFFFF;
+        color: #FFFFFF !important;
     }
     .sec-joi-but:hover {
         color: #FFFFFF;
